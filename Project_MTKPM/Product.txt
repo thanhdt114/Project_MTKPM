@@ -1,0 +1,18 @@
+01_Cafe den nong/da_10000_01
+02_Cafe sua nong/da_15000_01
+03_Cafe da xay pha kem_20000_01
+04_Cafe xay Chocolate_25000_01
+05_Cafe xay huong chuoi_25000_01
+06_Cam vat_30000_02
+07_Cam vat khong da_45000_02
+08_Thom ep_35000_02
+09_Oi ep_35000_02
+10_Buoi ep_35000_02
+11_Ca rot ep_35000_02
+12_Ca chua ep_35000_02
+13_Nuoc ep thap cam_45000_02
+14_Sinh to dua_36000_03
+15_Sinh to tac_36000_03
+16_Sinh to thom_36000_03
+17_Sinh to ca chua_36000_03
+18_Sinh to ca rot_36000_03

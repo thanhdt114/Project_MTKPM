@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Load">
+      <UniqueIdentifier>{0314718c-d21a-490c-8367-9a94bcc789f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{04a1c9d6-54f9-45f5-bba2-cb8d5ce44ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AddData">
+      <UniqueIdentifier>{2c10b6de-b71a-42b6-aefa-1ad2ab6abef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func">
+      <UniqueIdentifier>{522046ac-16df-4100-8d55-cce4f9803cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func\Pay">
+      <UniqueIdentifier>{1358616b-8ffe-4867-92af-098f618c81af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func\Salary">
+      <UniqueIdentifier>{cec39cf3-7b4f-4633-b422-034e11905c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func\Notification">
+      <UniqueIdentifier>{9b6725ef-11e3-425b-915b-bf94d2a439d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func\Theme">
+      <UniqueIdentifier>{61a379c5-2118-4ac1-a917-40cc281202c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project_MTKPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCategory.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadStaff.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Category.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadProduct.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadOrders.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderDetail.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadOrderDetail.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBank.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOrderDetail.cpp">
+      <Filter>Source Files\AddData</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOrder.cpp">
+      <Filter>Source Files\AddData</Filter>
+    </ClCompile>
+    <ClCompile Include="Bidv.cpp">
+      <Filter>Source Files\Func\Pay</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncOrder.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodPay.cpp">
+      <Filter>Source Files\Func\Pay</Filter>
+    </ClCompile>
+    <ClCompile Include="Payment.cpp">
+      <Filter>Source Files\Func\Pay</Filter>
+    </ClCompile>
+    <ClCompile Include="Vietinbank.cpp">
+      <Filter>Source Files\Func\Pay</Filter>
+    </ClCompile>
+    <ClCompile Include="Vietcapitalbank.cpp">
+      <Filter>Source Files\Func\Pay</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IEmployee.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="IEmployeeBonus.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="Bartender.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="Cashier.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="EStaff.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="Salary.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="NullEmployee.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="SalaryEmployee.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="SalaryEmployeeBonus.cpp">
+      <Filter>Source Files\Func\Salary</Filter>
+    </ClCompile>
+    <ClCompile Include="INotification.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Email.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumber.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="NotiManager.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherManager.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformSendNotification.cpp">
+      <Filter>Source Files\Func\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="ITheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="AquaTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBlackTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="RedWhiteTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="ISoftware.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="SetTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformSetTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

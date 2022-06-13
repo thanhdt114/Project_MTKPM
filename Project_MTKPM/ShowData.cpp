@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <iomanip>
 
 #include "Bank.cpp"
 #include "Category.cpp"
@@ -82,6 +83,41 @@ public:
 			cout << "phonenumber: " << staff[i].getPhoneNumber() << endl;
 			cout << endl;
 		}
+	}
+
+	void ShowDataOrderDetail_OrderID(vector<OrderDetail> orderDetail, string order_id, vector<Product> product) {
+		int totalBill = 0;
+
+		cout << ".........................BILL........................" << endl;
+		cout << "ID: " << order_id << endl;
+		cout << setw(25) << left << "Name product";
+		cout << setw(10) << left << "Price";
+		cout << setw(5) << left << "Quantity";
+		cout << setw(10) << right << "Total" << endl;
+
+		cout << setfill('-');
+		cout << setw(53) << "-";
+		cout << setfill(' ') << endl;
+
+		for (int i = 0; i < orderDetail.size(); i++) {
+			if (orderDetail[i].getOrder_id() == order_id) {
+				totalBill += orderDetail[i].getTotalPrice();
+				for (int k = 0; k < product.size(); k++) {
+					if (product[k].getId() == orderDetail[i].getProduct_id()) {
+						cout << setw(25) << left << product[k].getName();
+					}
+				}
+				cout << setw(14) << left << orderDetail[i].getPrice();
+				cout << setw(3) << left << orderDetail[i].getQuantity();
+				cout << setw(10) << right << orderDetail[i].getTotalPrice() << "d" << endl;
+			}
+		}
+
+		cout << setfill('-');
+		cout << setw(53) << "-";
+		cout << setfill(' ') << endl;
+
+		cout << setw(46) << right << "Total Bill: " << totalBill << "d\n\n";
 	}
 };
 

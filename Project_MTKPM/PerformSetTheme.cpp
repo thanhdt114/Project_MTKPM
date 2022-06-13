@@ -6,6 +6,7 @@
 #include "YellowTheme.cpp"
 #include "BlueBlackTheme.cpp"
 #include "RedWhiteTheme.cpp"
+#include "DefaultTheme.cpp"
 #include "SetTheme.cpp"
 
 using namespace std;
@@ -29,9 +30,14 @@ public:
 			SetTheme setTheme(blueBlackTheme);
 			setTheme.setSoftwareTheme();
 		}
-		else
+		else if (key == 4)
 		{
 			SetTheme setTheme(redWhiteTheme);
+			setTheme.setSoftwareTheme();
+		}
+		else
+		{
+			SetTheme setTheme(defaultTheme);
 			setTheme.setSoftwareTheme();
 		}
 	}
@@ -40,5 +46,6 @@ private:
 	YellowTheme yellowTheme;
 	BlueBlackTheme blueBlackTheme;
 	RedWhiteTheme redWhiteTheme;
+	DefaultTheme defaultTheme;
 };
 

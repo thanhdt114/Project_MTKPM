@@ -7,6 +7,7 @@
 #include "Order.cpp"
 #include "AddOrderDetail.cpp"
 #include "AddOrder.cpp"
+#include "ShowData.cpp";
 
 
 using namespace std;
@@ -50,9 +51,11 @@ public:
 
 		//cout << "Nhap voucher (N: bo qua): ";
 
+		showData.ShowDataOrderDetail_OrderID(orderDetail, to_string(order_id + 1), product);
+
 		cout << "Nhap id nhan vien: ";
 		cin >> id;
-		this->ProcessAddOrder(id, "04/06/2022", "Note", order, orderDetail);
+		this->ProcessAddOrder(id, "13/06/2022", "Note", order, orderDetail);
 	}
 
 	string charToString(char* a)
@@ -83,5 +86,6 @@ public:
 private:
 	OrderDetail orderDetail;
 	Order order;
+	ShowData showData;
 };
 

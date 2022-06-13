@@ -180,5 +180,8 @@
     <ClCompile Include="PerformSetTheme.cpp">
       <Filter>Source Files\Func\Theme</Filter>
     </ClCompile>
+    <ClCompile Include="DefaultTheme.cpp">
+      <Filter>Source Files\Func\Theme</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -145,6 +145,7 @@
     <ClCompile Include="Bidv.cpp" />
     <ClCompile Include="BlueBlackTheme.cpp" />
     <ClCompile Include="Cashier.cpp" />
+    <ClCompile Include="DefaultTheme.cpp" />
     <ClCompile Include="Email.cpp" />
     <ClCompile Include="EStaff.cpp" />
     <ClCompile Include="FuncOrder.cpp" />

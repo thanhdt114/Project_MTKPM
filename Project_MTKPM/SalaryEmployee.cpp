@@ -14,9 +14,6 @@ public:
 	void ProcessSalaryEmployee(const shared_ptr<IEmployee>& state) {
 		this->state = state;
 	}
-	void setState(const shared_ptr<IEmployee>& state) {
-		this->state = state;
-	}
 	void printInfor(string id, string fullname, int salary) {
 		this->state->ProcessIEmployee(id, fullname, salary);
 	}

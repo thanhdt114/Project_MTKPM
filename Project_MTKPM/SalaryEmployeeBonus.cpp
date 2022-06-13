@@ -14,9 +14,6 @@ public:
 	void ProcessSalaryEmployeeBonus(const shared_ptr<IEmployeeBonus>& state) {
 		this->state = state;
 	}
-	void setState(const shared_ptr<IEmployeeBonus>& state) {
-		this->state = state;
-	}
 	void printfInfor(int salary) {
 		this->state->ProcessIEmployeeBonus(salary);
 		printf("bonus: %.0lf \n", this->state->calculateBonus());

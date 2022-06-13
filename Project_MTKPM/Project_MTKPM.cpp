@@ -80,13 +80,14 @@ int main()
         cout << "2. Payroll" << endl;
         cout << "3. Send notification" << endl;
         cout << "4. Set Theme" << endl;
+        cout << "5. Show data" << endl;
         cout << "Select: ";
         cin >> key;
         if (key == 1) {
             cout << "\n";
             FuncOrder funcOrder;
             funcOrder.ProcessFuncOrder(product, order, orderDetail);
-
+            
             cout << "Chon phuong thuc thanh toan:" << endl;
             cout << "1. Tien mat \n2. Online" << endl;
             cin >> key;
@@ -100,6 +101,7 @@ int main()
                 Payment payment;
                 payment.ProcessPayment(bank_id, order[order.size() - 1].getTotalPrice(), bank);
             }
+            
         }
         else if (key == 2) {
             cout << "\n";
@@ -116,7 +118,7 @@ int main()
             PerformSendNotification send;
             send.Process(type);
         }
-        else
+        else if (key == 4)
         {
             cout << "\n";
             cout << "Chon theme:" << endl;
@@ -124,11 +126,42 @@ int main()
             cout << "2. Yellow Theme" << endl;
             cout << "3. BlueBlack Theme" << endl;
             cout << "4. RedWhite Theme" << endl;
+            cout << "5. Default Theme" << endl;
             cout << "Select: ";
             cin >> key;
             
             PerformSetTheme theme;
             theme.Process(key);
+        }
+        else
+        {
+            cout << ">>>>> SELECT DATA <<<<<" << endl;
+            cout << "1. Show data category" << endl;
+            cout << "2. Show data product" << endl;
+            cout << "3. Show data staff" << endl;
+            cout << "4. Show data order" << endl;
+            cout << "5. Show data order detail" << endl;
+            cout << "6. Show data bank" << endl;
+            cout << "Select: ";
+            cin >> key;
+            if (key == 1) {
+                showData.ShowDataCategory(category);
+            }
+            else if (key == 2) {
+                showData.ShowDataProduct(product);
+            }
+            else if (key == 3) {
+                showData.ShowDataStaff(staff);
+            }
+            else if (key == 4) {
+                showData.ShowDataOrder(order);
+            }
+            else if (key == 5) {
+                showData.ShowDataOrderDetail(orderDetail);
+            }
+            else {
+                showData.ShowDataBank(bank);
+            }
         }
         cout << "\n---------------------------------------------\n";
         cout << ">>>>> OPTIONS <<<<<" << endl;
